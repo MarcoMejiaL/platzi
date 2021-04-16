@@ -13,11 +13,15 @@ body {
 }
 
 .container {
-    border: 0.3rem solid black
+    height: 50vh;
+    border: .3rem solid black;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .box {
-    width: 10 rem;
+    flex-basis: 10rem;
+    flex-grow: 1;
     height: 10rem;
 }
 

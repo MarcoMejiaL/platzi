@@ -1,0 +1,41 @@
+:root {
+    /* AQUI SE DECLARAN LAS VARIABLES */
+    --colorPrimario: tomato;
+    --colorSecundario: turquoise;
+    --headerSize: 4rem;
+    --fuente: 1.8rem;
+    --fuenteHeader: 6rem;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+header {
+    width: 100vw;
+    height: 15vh;
+    background-color: var(--colorPrimario);
+}
+
+main {
+    width: 100vw;
+    height: 70vh;
+    font-size: var(--fuente);
+}
+
+h1 {
+    font-size: var(--fuenteHeader);
+    color: violet;
+}
+
+footer {
+    width: 100vw;
+    height: 15vh;
+    background-color: var(--colorSecundario);
+}
