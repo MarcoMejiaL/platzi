@@ -117,16 +117,16 @@ main {
   width: 100%;
   padding: 30px;
   position: relative;
-  overflow: hidden;
+  overflow:hidden;
 }
 
 .carrusel__contenedor {
+  white-space: nowrap;
   margin: 70px 0px;
   padding-bottom: 10px;
 }
 
-.carrusel__item {
-  background: teal;
+.carrusel__item {  
   width: 200px;
   height: 250px;
   border-radius: 20px;
@@ -137,6 +137,7 @@ main {
   transition: 450ms all;
   transform-origin: center left;
   position: relative;
+  
 }
 
 .carrusel__item:hover ~ .carrusel__item {
